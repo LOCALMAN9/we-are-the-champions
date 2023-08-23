@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1B1924;
+    color: #fff;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+button {
+    color: #f0f9ff;
+    background:#28A9F1;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0 0 8px;
+  }
+  
+  
+  textarea, input {
+    font-family: "Inter", sans-serif;
+    background: #f4f8f9;
+    font-size: 16px;
+    border: 0;
+    border-radius: 8px;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  input {
+    box-sizing: border-box;
+    display: inline;
+    text-align: center;
+    width: 50%;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: none;
+    padding-left: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 30px auto;
+  }
+  
+  .form {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 10px;
+  }
+  
+  .input-wrap {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  
+  .endors-el {
+    color: #021b27;
+  }
+  
+  #endorsements-list {
+    color: #010e13;
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  
+  #endorsements-list > div {
+    background: #f4f8f9;
+    padding: 15px 18px 0;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  ::placeholder {
+    color: #99a3a8;
+    opacity: 1;
+  }
